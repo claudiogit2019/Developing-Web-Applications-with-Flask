@@ -35,7 +35,7 @@ Para los usuarios de Mac, ingrese el siguiente comando en su terminal.
 
 En primer lugar, crea una nueva carpeta para esta campaña. En esta nueva carpeta, cree una carpeta denominada Quest1. En Quest1, cree una carpeta llamada app y un archivo llamado requirements.txt. En la carpeta de la aplicación, cree un archivo denominado app.py. Ahora debería tener una estructura de directorios de archivos similar a la siguiente:
 
-![directorio](imagen\flask1.png)
+![directorio](imagen/flask1.png)
 
 A continuación, abra un terminal en el directorio Quest1 y ejecute el siguiente comando* para crear un entorno virtual para nuestra búsqueda. El módulo venv es un módulo integrado en Python que se utiliza para crear entornos virtuales. Una vez que se ejecute el comando, verá la carpeta venv creada. Nota: Si el resultado del comando indica que Python no está instalado, puede reemplazar python3 con python en su lugar.
 
@@ -82,7 +82,7 @@ Y, por último, ejecutemos la aplicación con el siguiente código.
 
 El código final en app.py debería tener este aspecto.
 
-![app.py](imagen\flask2.png)
+![app.py](imagen/flask2.png)
 
 Guarde el archivo. En su terminal, cambie el directorio de trabajo actual a app y ejecute app.py con este comando en su terminal.
 
@@ -92,7 +92,7 @@ A continuación, abra http://localhost:5000/
 
 Debería ver su sitio web alojado en su computadora y el mensaje "¡Hola mundo!".
 
-![hola ](imagen\flask3.png)
+![hola ](imagen/flask3.png)
 
 ## Hospedaje público de la aplicación
 
@@ -131,11 +131,11 @@ A continuación, cree el archivo vercel.json en el directorio Quest1 con el sigu
 
 A continuación, queremos asegurarnos de que nuestra URL de vista previa pueda ser vista por otros. En su navegador, diríjase a Vercel e inicie sesión. Seleccione el proyecto flask-quest1 que creó anteriormente. Vaya a la pestaña Configuración. Seleccione Protección de implementación y deshabilite la autenticación de Vercel. Asegúrese de hacer clic en Guardar.
 
-![publico](imagen\flask4.png)
+![publico](imagen/flask4.png)
 
 ## captura de pantalla
 
-![publico](imagen\flask5.png)
+![captura](imagen/flask5.png)
 
 ## enlace web
 
