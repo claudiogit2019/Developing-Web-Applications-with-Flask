@@ -92,7 +92,7 @@ A continuación, abra http://localhost:5000/
 
 Debería ver su sitio web alojado en su computadora y el mensaje "¡Hola mundo!".
 
-![hola ](imagen\flask3.jfif)
+![hola ](imagen\flask3.png)
 
 ## Hospedaje público de la aplicación
 
@@ -131,7 +131,7 @@ A continuación, cree el archivo vercel.json en el directorio Quest1 con el sigu
 
 A continuación, queremos asegurarnos de que nuestra URL de vista previa pueda ser vista por otros. En su navegador, diríjase a Vercel e inicie sesión. Seleccione el proyecto flask-quest1 que creó anteriormente. Vaya a la pestaña Configuración. Seleccione Protección de implementación y deshabilite la autenticación de Vercel. Asegúrese de hacer clic en Guardar.
 
-![publico](imagen\flask4.jfif)
+![publico](imagen\flask4.png)
 
 ## captura de pantalla
 
